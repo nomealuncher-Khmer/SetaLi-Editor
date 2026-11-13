@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.CapCraft" parent="android:Theme.Material.NoActionBar">
-        <item name="android:windowBackground">@android:color/black</item>
-        <item name="android:statusBarColor">@android:color/black</item>
-        <item name="android:navigationBarColor">@android:color/black</item>
+
+        <!-- Ocean Background -->
+        <item name="android:windowBackground">#071B2D</item>
+
+        <!-- Ocean System Bars -->
+        <item name="android:statusBarColor">#061525</item>
+        <item name="android:navigationBarColor">#061525</item>
+
+        <!-- Light Status Bar Icons -->
         <item name="android:windowLightStatusBar">false</item>
+
+        <!-- App Window -->
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">#20D6D2</item>
+
     </style>
+
 </resources>
